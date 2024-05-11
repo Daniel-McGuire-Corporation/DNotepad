@@ -43,6 +43,7 @@
             // 
             richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             richTextBox1.BackColor = Color.FromArgb(32, 33, 36);
+            richTextBox1.ForeColor = Color.White;
             richTextBox1.Location = new Point(0, 27);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(800, 425);

@@ -9,7 +9,7 @@ namespace DNotepad
 {
     public partial class Splash : Form
     {
-        private const int totalTime = 6; // Total time in seconds
+        private const int totalTime = 7; // Total time in seconds
         private const int progressBarSegments = 500; // Number of segments to divide progress bar
         private int segmentDuration; // Duration of each segment in milliseconds
         private int currentSegment; // Current segment of progress
