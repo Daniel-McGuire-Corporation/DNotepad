@@ -1,6 +1,0 @@
-
-Algorithm       Hash                                                                   Path                            
----------       ----                                                                   ----                            
-SHA256          413E0019F969BE469C332C168EC04A844325CCF6FE78E1D5DCCA2F7D13F67116       E:\DNotepad\scripts\windows_b...
-
-
