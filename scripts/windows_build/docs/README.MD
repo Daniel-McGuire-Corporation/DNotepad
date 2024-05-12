@@ -19,7 +19,7 @@ This method uses the .NET SDK to build and install the DNotepad application.
 
 # Method 2 | Visual Studio
 
-This method uses Visual Studio to build and run the Simple Browser application.
+This method uses Visual Studio to build and run the DNotepad application.
 
 ## Prerequisites
 
