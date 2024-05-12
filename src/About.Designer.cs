@@ -81,11 +81,12 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = SystemColors.ControlLightLight;
-            label4.Location = new Point(74, 41);
+            label4.Location = new Point(59, 37);
             label4.Name = "label4";
-            label4.Size = new Size(112, 15);
+            label4.Size = new Size(142, 15);
             label4.TabIndex = 4;
-            label4.Text = "Version 0.1.17-alpha";
+            label4.Text = "Version 0.2.0.0.2087-alpha";
+            label4.Click += label4_Click;
             // 
             // About
             // 
