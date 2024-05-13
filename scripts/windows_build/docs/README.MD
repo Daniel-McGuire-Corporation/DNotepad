@@ -13,8 +13,8 @@ This method uses the .NET SDK to build and install the DNotepad application.
    git clone https://github.com/Daniel-McGuire-Corporation/DNotepad.git
    ```
 2. **Install the Prerequisites:**
-   **.NET:** This project requires the .NET 6.0 SDK. You can download it from [Microsoft .NET Downloads 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
-   **NSIS:** This project requires the Nullsoft Scriptable Install System. You can download it from [nsis.sourceforge.io](https://nsis.sourceforge.io/Download)
+   - **.NET:** This project requires the .NET 6.0 SDK. You can download it from [Microsoft .NET Downloads 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+   - **NSIS:** This project requires the Nullsoft Scriptable Install System. You can download it from [nsis.sourceforge.io](https://nsis.sourceforge.io/Download)
 3. **Run BuildAll.cmd:**
    Run the BuildAll.cmd file in the script location of the repository. This will compile the source code and create an installer.
 
