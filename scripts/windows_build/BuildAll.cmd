@@ -7,7 +7,13 @@ echo.
 echo Compiling %App%
 echo.
 cd ..\..\src\
-dotnet build DNotepad.csproj --nologo -c Release 
+dotnet build DNotepad.csproj --nologo -c Release --verbosity detailed
+cd ..\InsPathComp\
+echo.
+echo Compiling Installer Path Component
+echo.
+dotnet build PathEd.csproj --nologo -c Release -o ..\bin\Release\net6.0-windows7.0\Path\ --verbosity detailed
+echo.
 echo.
 echo Application Compiled!
 echo.

@@ -51,6 +51,8 @@
 
   ;Request application privileges for Windows Vista
   RequestExecutionLevel admin ;Require admin rights on NT6+ (When UAC is turned on)
+  ;Set the text in the bottom left
+  BrandingText "${COMPANYNAME}" ; Set the branding text to your custom text
   
 ;--------------------------------
 ;Variables
@@ -114,6 +116,7 @@ Section "install"
 
   # Files add here should be removed by the uninstaller (see section "uninstall")
   File /r "..\..\src\bin\Release\net6.0-windows7.0\*.*"
+  Exec '"$INSTDIR\Path\DMCpathtool.exe" add "C:\Program Files (x86)\DNotepad"'
   
   ################################################################################################################
 
@@ -180,6 +183,8 @@ Section "uninstall"
   delete "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk"
   #Try to remove the Start Menu folder - this will only happen if it is empty
   rmDir "$SMPROGRAMS\${APPNAME}"
+  #Remove from path
+  Exec '"$INSTDIR\Path\DMCpathtool.exe" remove "C:\Program Files (x86)\DNotepad"'
 
   ################################################################################################################
 
