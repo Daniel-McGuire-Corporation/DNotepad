@@ -43,7 +43,7 @@ namespace DNotepad
                                 "DNotepad Help Screen\n" +
                                 "Usage: DNotepad.exe [arguments]\n" +
                                 "Arguments:\n" +
-                                "\t/?\t\tShow this help screen\n" +
+                                "\t/?\t\tShow this help dialog\n" +
                                 "\t/about\t\tShow the about dialog\n" +
                                 "\t[filePath]\tOpen the specified file",
                                 "Help");
@@ -59,7 +59,7 @@ namespace DNotepad
             }
 
             // Run the main form
-            Application.Run(new Splash());
+            Application.Run(new Notepad());
         }
     }
 }

@@ -63,13 +63,13 @@ namespace DNotepad
             {
                 // Call the saveToolStripMenuItem_Click event handler to save the file
                 saveToolStripMenuItem_Click(sender, e);
-                Splash splash = (Splash)Application.OpenForms["Splash"];
-                splash.Close();
+                
+                
             }
             if (result == DialogResult.No)
             {
-                Splash splash = (Splash)Application.OpenForms["Splash"];
-                splash.Close();
+               
+                
             }
             else if (result == DialogResult.Cancel)
             {
