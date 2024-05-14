@@ -8,9 +8,8 @@ DNotepad is a simple notepad application built in C#.
 - Drag and drop files to open them.
 - Save files with txt or dnp extensions.
 
-## Screenshots
-
-![Indev SS (different)](https://github.com/Daniel-McGuire-Corporation/DNotepad/assets/146508360/95ed99d9-fc0d-4723-907f-e8f83454fa07)
+## Compatibility
+Windows 7 or later
 
 ## How to Use
 1. Run the app
@@ -39,3 +38,7 @@ Daniel McGuire Corporation
 ## Contact
 
 For any inquiries or feedback, please contact danielmcguire22@icloud.com.
+
+## Screenshots
+
+![Indev SS (different)](https://github.com/Daniel-McGuire-Corporation/DNotepad/assets/146508360/95ed99d9-fc0d-4723-907f-e8f83454fa07)
