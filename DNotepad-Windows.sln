@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNotepad", "DNotepad.csproj", "{88C5BCF9-F994-46BC-B8EC-7D62A1861B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNotepad", "src\DNotepad.csproj", "{88C5BCF9-F994-46BC-B8EC-7D62A1861B73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path Variable", "..\InsPathcomp\Path Variable.csproj", "{7FAA6495-170F-46E5-9B28-28D39BA7F7E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Path Variable", "InsPathcomp\Path Variable.csproj", "{7FAA6495-170F-46E5-9B28-28D39BA7F7E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
