@@ -24,4 +24,3 @@ makensis.exe %~dp0\main.nsi
 echo.
 echo Installer Compiled!
 pause
-exit
